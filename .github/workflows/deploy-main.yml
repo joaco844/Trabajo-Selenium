@@ -17,7 +17,7 @@ jobs:
       run: docker build -t joakod/tpselenium .
       
     - name: Log in to Docker Hub
-      run: docker login -u joakod -p ${{ secrets.D   }}
+      run: docker login -u joakod -p ${{ secrets.DOCKERHUB_PASSWORD }}
       
     - name: Push Docker image
       run: docker pull joakod/tpselenium
