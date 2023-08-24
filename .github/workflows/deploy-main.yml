@@ -20,4 +20,4 @@ jobs:
       run: docker login -u joakod -p ${{ secrets.DOCKERHUB_PASSWORD }}
       
     - name: Push Docker image
-      run: docker pull joakod/tpselenium
+      run: docker push joakod/tpselenium
