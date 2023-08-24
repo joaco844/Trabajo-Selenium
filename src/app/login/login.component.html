@@ -1,0 +1,13 @@
+<div>
+    <button routerLink="/main">Home</button>
+    <button routerLink="/login">Login</button>
+    <button routerLink="/cargaDedatos">CargaDeDatos</button>
+</div>
+<h2>Login de usuario</h2>
+<input [(ngModel)]="email" type="email"  placeholder="email">
+<br>
+<input [(ngModel)]="password" type="password"  placeholder="password">
+<br>
+<button (click)="validToken()">Enviar</button>
+
+
