@@ -1,33 +1,23 @@
-name: Deploy to Firebase
+name: Subir al render con imagen docker
 
 on:
   push:
     branches:
-      - main  
-      
+      - desarrollo
+      - main
 
 jobs:
-  build-deploy:
+  build-and-push:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set Up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build Application
-        run: npm run build
-
-      - name: Deploy to Firebase
-        run: npm install -g firebase-tools
-      # Authenticate with Firebase (set up your own secrets)
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: firebase deploy --token "$FIREBASE_TOKEN"
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Build Docker image
+      run: docker build -t joakod/tpselenium .
+      
+    - name: Log in to Docker Hub
+      run: docker login -u joakod -p ${{ secrets.D   }}
+      
+    - name: Push Docker image
+      run: docker pull joakod/tpselenium
