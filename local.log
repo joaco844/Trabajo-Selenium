@@ -1,0 +1,2491 @@
+
+
+Mon Aug 28 2023 16:28:42:755 GMT-0300 (-03) -- Binary semantic version is v8.9.2
+Mon Aug 28 2023 16:28:42:755 GMT-0300 (-03) -- Setting output as extra verbose with request parsing
+Mon Aug 28 2023 16:28:42:807 GMT-0300 (-03) -- Starting configuration console on http://localhost:45454
+Mon Aug 28 2023 16:28:44:130 GMT-0300 (-03) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Aug 28 2023 16:28:45:166 GMT-0300 (-03) -- Connecting to BrowserStack using WebSocket protocol...
+Mon Aug 28 2023 16:28:45:166 GMT-0300 (-03) -- Platform supports WebSocket connections.
+
+Mon Aug 28 2023 16:28:45:266 GMT-0300 (-03) -- Press Ctrl-C to exit
+
+
+Mon Aug 28 2023 16:28:58:746 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:58:746 GMT-0300 (-03) -- [PARSING HANDSHAKE][30][35724652] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:58:746 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:58:748 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:58:766 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:58:766 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785738] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:58:766 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:58:767 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:58:940 GMT-0300 (-03) -- [PARSING REQUEST][30][35724652] HEAD / HTTP/1.1
+Accept: */*
+User-Agent: Ruby, Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+Connection: close
+Host: localhost:4200
+
+
+Mon Aug 28 2023 16:28:58:942 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][30][35724652] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:28:58 GMT
+Connection: close
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:28:58:942 GMT-0300 (-03) -- Writing 256 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:58:950 GMT-0300 (-03) -- [PARSING REQUEST][0][146785738] GET / HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:58:951 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785738] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:28:58 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon"  FROM localhost:4200
+Mon Aug 28 2023 16:28:58:951 GMT-0300 (-03) -- Writing 845 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:192 GMT-0300 (-03) -- [PARSING REQUEST][0][146785738] GET /styles.css HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:193 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785738] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 778
+ETag: W/"30a-Mj2sANXcDYVswi9UwV7mFCHQLoU"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/*!********************************************************************************************************************************************************************************************************************** FROM localhost:4200
+Mon Aug 28 2023 16:28:59:193 GMT-0300 (-03) -- Writing 1061 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:227 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:59:227 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785754] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:59:227 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:59:227 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:246 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:59:246 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785755] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:59:246 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:59:246 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:249 GMT-0300 (-03) -- Request to: 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:249 GMT-0300 (-03) -- [PARSING HANDSHAKE][30][35724685] Handshake request to 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:249 GMT-0300 (-03) -- Connecting to: 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:250 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:275 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:59:275 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785756] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:59:275 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:59:275 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:59:275 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785757] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:59:276 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:59:276 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:276 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:277 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:28:59:277 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785758] Handshake request to localhost:4200
+Mon Aug 28 2023 16:28:59:277 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:28:59:277 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:443 GMT-0300 (-03) -- [PARSING REQUEST][0][146785754] GET /runtime.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:444 GMT-0300 (-03) -- [PARSING REQUEST][30][35724685] GET / HTTP/1.1
+Host: bs-local.com:4200
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:444 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785754] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 6666
+ETag: W/"1a0a-xTT1nhUIxiartwqffwW5sbvOCnk"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The modul FROM localhost:4200
+Mon Aug 28 2023 16:28:59:445 GMT-0300 (-03) -- Writing 6965 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:446 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][30][35724685] HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OxsTL6IB85fkJxv9HO8uum0slCI"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid Host header FROM 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:446 GMT-0300 (-03) -- Writing 247 bytes response from: 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:463 GMT-0300 (-03) -- [PARSING REQUEST][0][146785755] GET /polyfills.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:466 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785755] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 322369
+ETag: W/"4eb41-hyFBLecDmTVHSI14uye5k1G3BcM"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["polyfills"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community FROM localhost:4200
+Mon Aug 28 2023 16:28:59:466 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:471 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:474 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:474 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:475 GMT-0300 (-03) -- Writing 60527 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:476 GMT-0300 (-03) -- [PARSING REQUEST][0][146785756] GET /vendor.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:481 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785756] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 2439984
+ETag: W/"253b30-9Lcm9TQMruq39fmeKzjMBD5iD78"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/ FROM localhost:4200
+Mon Aug 28 2023 16:28:59:481 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:482 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:483 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:484 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:484 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:485 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:486 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:487 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:488 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:488 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:489 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:491 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:492 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:494 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:496 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:497 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:498 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:501 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:502 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:502 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:503 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:504 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:505 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:505 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:506 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:507 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:508 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:508 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:509 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:511 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:512 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:513 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:514 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:514 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:515 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:516 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:518 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:518 GMT-0300 (-03) -- Writing 15456 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:519 GMT-0300 (-03) -- [PARSING REQUEST][0][146785757] GET /main.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:519 GMT-0300 (-03) -- [PARSING REQUEST][0][146785758] GET /styles.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:28:59:524 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785757] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 18206
+ETag: W/"471e-US5tnPS/AWA+TDr0xu8UZGufJxc"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+"use strict";
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
+
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \ FROM localhost:4200
+Mon Aug 28 2023 16:28:59:524 GMT-0300 (-03) -- Writing 18506 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:525 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785758] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 214202
+ETag: W/"344ba-8L5iGOgZKi44+oMX5vN8g5O5e6U"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["styles"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/in FROM localhost:4200
+Mon Aug 28 2023 16:28:59:525 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:526 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:527 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:528 GMT-0300 (-03) -- Writing 17896 bytes response from: localhost:4200
+Mon Aug 28 2023 16:28:59:741 GMT-0300 (-03) -- Request to: 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:741 GMT-0300 (-03) -- [PARSING HANDSHAKE][30][35724717] Handshake request to 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:741 GMT-0300 (-03) -- Connecting to: 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:741 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:28:59:935 GMT-0300 (-03) -- [PARSING REQUEST][30][35724717] GET /favicon.ico HTTP/1.1
+Host: bs-local.com:4200
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Language: en-us
+Referer: http://bs-local.com:4200/
+Accept-Encoding: gzip, deflate
+
+
+Mon Aug 28 2023 16:28:59:936 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][30][35724717] HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OxsTL6IB85fkJxv9HO8uum0slCI"
+Date: Mon, 28 Aug 2023 19:28:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid Host header FROM 127.0.0.1:4200
+Mon Aug 28 2023 16:28:59:937 GMT-0300 (-03) -- Writing 247 bytes response from: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:00:428 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:00:429 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785807] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:00:429 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:00:430 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:152 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] GET /ng-cli-ws HTTP/1.1
+Host: localhost:4200
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:4200
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: 1Sd8MsEHCssklrSwWeO/Jg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+Mon Aug 28 2023 16:29:01:153 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785807] HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: FWSMMM2OCtJckaJtZUIHQBu7KKI=
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:01:153 GMT-0300 (-03) -- Writing 129 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:153 GMT-0300 (-03) -- Writing 115 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:154 GMT-0300 (-03) -- Writing 58 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:342 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:342 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417320] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:342 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:343 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:530 GMT-0300 (-03) -- [PARSING REQUEST][6][29417320] GET / HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+Mon Aug 28 2023 16:29:01:531 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417320] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon"  FROM localhost:4200
+Mon Aug 28 2023 16:29:01:531 GMT-0300 (-03) -- Writing 845 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:593 GMT-0300 (-03) -- [PARSING REQUEST][0][146785756] GET /favicon.ico HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:01:594 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785756] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: image/vnd.microsoft.icon
+Accept-Ranges: bytes
+Content-Length: 948
+ETag: W/"3b4-Ivako7yq+vsCVODy+kzrieUF6LI"
+Date: Mon, 28 Aug 2023 19:29:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+PNG
+
+   IHDR         ?Å~   	pHYs    ÒÝ~ü  fIDATHWKLQ½óéÌÒuG	e£n.6qcbl?¸ÑD`©F#ÆKuãF1Qc
+¢!ø	¸ñC¦P¤|B?$ÔÜ±3¼ÎÌI&}óÞ}ïÌ½sï[*ÉUA© KyxgYöAjqê¬Õ3L	Å ´ ÂÙË«ÎOD§4¦3Ï:X FROM localhost:4200
+Mon Aug 28 2023 16:29:01:594 GMT-0300 (-03) -- Writing 1232 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:650 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:650 GMT-0300 (-03) -- [PARSING HANDSHAKE][0][146785849] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:650 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:651 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:814 GMT-0300 (-03) -- [PARSING REQUEST][6][29417320] GET /styles.css HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:01:815 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417320] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 778
+ETag: W/"30a-Mj2sANXcDYVswi9UwV7mFCHQLoU"
+Date: Mon, 28 Aug 2023 19:29:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/*!********************************************************************************************************************************************************************************************************************** FROM localhost:4200
+Mon Aug 28 2023 16:29:01:816 GMT-0300 (-03) -- Writing 1061 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:864 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:864 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417348] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:864 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:864 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:871 GMT-0300 (-03) -- [PARSING REQUEST][0][146785849] HEAD / HTTP/1.1
+Host: localhost:4200
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:01:872 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][0][146785849] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:01:872 GMT-0300 (-03) -- Writing 284 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:01:873 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:873 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417349] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:873 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:873 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:873 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417350] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:874 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:874 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:875 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:885 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:885 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417351] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:885 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:886 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:896 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:01:896 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417354] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:01:896 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:01:896 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:01:919 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:45 GMT-0300 (-03) -- [PARSING REQUEST][6][29417348] GET /runtime.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:02:46 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417348] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 6666
+ETag: W/"1a0a-xTT1nhUIxiartwqffwW5sbvOCnk"
+Date: Mon, 28 Aug 2023 19:29:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The modul FROM localhost:4200
+Mon Aug 28 2023 16:29:02:46 GMT-0300 (-03) -- Writing 6965 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:66 GMT-0300 (-03) -- [PARSING REQUEST][6][29417349] GET /styles.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:02:68 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417349] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 214202
+ETag: W/"344ba-8L5iGOgZKi44+oMX5vN8g5O5e6U"
+Date: Mon, 28 Aug 2023 19:29:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["styles"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/in FROM localhost:4200
+Mon Aug 28 2023 16:29:02:68 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:69 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:70 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:71 GMT-0300 (-03) -- Writing 17896 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:73 GMT-0300 (-03) -- [PARSING REQUEST][6][29417350] GET /polyfills.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:02:75 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417350] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 322369
+ETag: W/"4eb41-hyFBLecDmTVHSI14uye5k1G3BcM"
+Date: Mon, 28 Aug 2023 19:29:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["polyfills"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community FROM localhost:4200
+Mon Aug 28 2023 16:29:02:75 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:76 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:77 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:78 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:78 GMT-0300 (-03) -- Writing 60527 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:83 GMT-0300 (-03) -- [PARSING REQUEST][6][29417351] GET /main.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:02:84 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417351] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 18206
+ETag: W/"471e-US5tnPS/AWA+TDr0xu8UZGufJxc"
+Date: Mon, 28 Aug 2023 19:29:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+"use strict";
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
+
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \ FROM localhost:4200
+Mon Aug 28 2023 16:29:02:85 GMT-0300 (-03) -- Writing 18506 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:99 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] ß5 
+Mon Aug 28 2023 16:29:02:126 GMT-0300 (-03) -- [PARSING REQUEST][6][29417354] GET /vendor.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:02:131 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417354] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 2439984
+ETag: W/"253b30-9Lcm9TQMruq39fmeKzjMBD5iD78"
+Date: Mon, 28 Aug 2023 19:29:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/ FROM localhost:4200
+Mon Aug 28 2023 16:29:02:131 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:132 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:132 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:133 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:134 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:135 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:135 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:137 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:138 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:140 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:141 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:142 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:143 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:144 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:147 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:147 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:148 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:149 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:150 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:150 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:151 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:152 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:153 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:153 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:154 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:155 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:156 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:157 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:158 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:159 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:160 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:160 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:161 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:162 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:163 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:163 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:164 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:165 GMT-0300 (-03) -- Writing 15456 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:02:920 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:03:64 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:03:64 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417422] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:03:64 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:03:67 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:03:135 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] ÷WÊö
+Mon Aug 28 2023 16:29:03:724 GMT-0300 (-03) -- [PARSING REQUEST][6][29417422] GET /ng-cli-ws HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: http://localhost:4200
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: G99jlxoN4dwRAZ8Rk4MORw==
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+Mon Aug 28 2023 16:29:03:725 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417422] HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: Y2kWvZDqJSqRoLF0QTjyftVheEU=
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:03:725 GMT-0300 (-03) -- Writing 129 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:03:725 GMT-0300 (-03) -- Writing 115 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:03:726 GMT-0300 (-03) -- Writing 58 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:03:908 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:03:908 GMT-0300 (-03) -- [PARSING HANDSHAKE][6][29417471] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:03:908 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:03:909 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:03:920 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:03:921 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:04:17 GMT-0300 (-03) -- [PARSING REQUEST][6][29417354] GET /favicon.ico HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:04:18 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417354] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: image/vnd.microsoft.icon
+Accept-Ranges: bytes
+Content-Length: 948
+ETag: W/"3b4-Ivako7yq+vsCVODy+kzrieUF6LI"
+Date: Mon, 28 Aug 2023 19:29:04 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+PNG
+
+   IHDR         ?Å~   	pHYs    ÒÝ~ü  fIDATHWKLQ½óéÌÒuG	e£n.6qcbl?¸ÑD`©F#ÆKuãF1Qc
+¢!ø	¸ñC¦P¤|B?$ÔÜ±3¼ÎÌI&}óÞ}ïÌ½sï[*ÉUA© KyxgYöAjqê¬Õ3L	Å ´ ÂÙË«ÎOD§4¦3Ï:X FROM localhost:4200
+Mon Aug 28 2023 16:29:04:18 GMT-0300 (-03) -- Writing 1232 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:04:116 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] ¦
+Mon Aug 28 2023 16:29:04:117 GMT-0300 (-03) -- [PARSING REQUEST][6][29417471] HEAD / HTTP/1.1
+Host: localhost:4200
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+
+
+Mon Aug 28 2023 16:29:04:118 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][6][29417471] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:04 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:04:118 GMT-0300 (-03) -- Writing 284 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:04:142 GMT-0300 (-03) -- [PARSING REQUEST][6][29417422] Ge 
+Mon Aug 28 2023 16:29:04:920 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:04:920 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:05:114 GMT-0300 (-03) -- [PARSING REQUEST][6][29417422] ×IË{
+Mon Aug 28 2023 16:29:05:136 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] hEA
+Mon Aug 28 2023 16:29:05:921 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:05:921 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:06:103 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] {5W
+Mon Aug 28 2023 16:29:06:104 GMT-0300 (-03) -- [PARSING REQUEST][6][29417422] ßò½$
+Mon Aug 28 2023 16:29:06:921 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:06:922 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:07:119 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] -Ñ|
+Mon Aug 28 2023 16:29:07:121 GMT-0300 (-03) -- [PARSING REQUEST][6][29417422] 8Z{
+Mon Aug 28 2023 16:29:07:922 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:07:922 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:08:107 GMT-0300 (-03) -- [PARSING REQUEST][6][29417422] EÏmW
+Mon Aug 28 2023 16:29:08:107 GMT-0300 (-03) -- [PARSING REQUEST][0][146785807] U<K
+Mon Aug 28 2023 16:29:11:574 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:11:574 GMT-0300 (-03) -- [PARSING HANDSHAKE][16][17382203] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:11:574 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:11:574 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:11:581 GMT-0300 (-03) -- Request to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:11:581 GMT-0300 (-03) -- [PARSING HANDSHAKE][16][17382202] Handshake request to 127.0.0.1:4200
+Mon Aug 28 2023 16:29:11:581 GMT-0300 (-03) -- Connecting to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:11:581 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:11:750 GMT-0300 (-03) -- [PARSING REQUEST][16][17382203] HEAD / HTTP/1.1
+Accept: */*
+User-Agent: Ruby, Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+Connection: close
+Host: localhost:4200
+
+
+Mon Aug 28 2023 16:29:11:750 GMT-0300 (-03) -- [PARSING REQUEST][16][17382202] GET / HTTP/1.1
+Host: bs-local.com:4200
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:11:751 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][16][17382203] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:11 GMT
+Connection: close
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:11:751 GMT-0300 (-03) -- Writing 256 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:11:751 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][16][17382202] HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OxsTL6IB85fkJxv9HO8uum0slCI"
+Date: Mon, 28 Aug 2023 19:29:11 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid Host header FROM 127.0.0.1:4200
+Mon Aug 28 2023 16:29:11:751 GMT-0300 (-03) -- Writing 247 bytes response from: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:12:74 GMT-0300 (-03) -- Request to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:12:74 GMT-0300 (-03) -- [PARSING HANDSHAKE][16][17382241] Handshake request to 127.0.0.1:4200
+Mon Aug 28 2023 16:29:12:74 GMT-0300 (-03) -- Connecting to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:12:75 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:12:256 GMT-0300 (-03) -- [PARSING REQUEST][16][17382241] GET /favicon.ico HTTP/1.1
+Host: bs-local.com:4200
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Language: en-us
+Referer: http://bs-local.com:4200/
+Accept-Encoding: gzip, deflate
+
+
+Mon Aug 28 2023 16:29:12:256 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][16][17382241] HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OxsTL6IB85fkJxv9HO8uum0slCI"
+Date: Mon, 28 Aug 2023 19:29:12 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid Host header FROM 127.0.0.1:4200
+Mon Aug 28 2023 16:29:12:256 GMT-0300 (-03) -- Writing 247 bytes response from: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:13:467 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:13:468 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867538] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:13:468 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:13:468 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:13:650 GMT-0300 (-03) -- [PARSING REQUEST][2][142867538] GET / HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:13:651 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867538] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon"  FROM localhost:4200
+Mon Aug 28 2023 16:29:13:651 GMT-0300 (-03) -- Writing 845 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:13:891 GMT-0300 (-03) -- [PARSING REQUEST][2][142867538] GET /styles.css HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:13:893 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867538] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 778
+ETag: W/"30a-Mj2sANXcDYVswi9UwV7mFCHQLoU"
+Date: Mon, 28 Aug 2023 19:29:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/*!********************************************************************************************************************************************************************************************************************** FROM localhost:4200
+Mon Aug 28 2023 16:29:13:893 GMT-0300 (-03) -- Writing 1061 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:13:928 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:13:928 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867541] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:13:928 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:13:929 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:13:935 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:13:935 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867542] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:13:935 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:13:935 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:13:946 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:13:946 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867543] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:13:946 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:13:946 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:13:948 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:13:948 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867544] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:13:948 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:13:948 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:13:955 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:13:955 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867545] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:13:955 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:13:956 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:14:115 GMT-0300 (-03) -- [PARSING REQUEST][2][142867542] GET /vendor.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:14:119 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867542] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 2439984
+ETag: W/"253b30-9Lcm9TQMruq39fmeKzjMBD5iD78"
+Date: Mon, 28 Aug 2023 19:29:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/ FROM localhost:4200
+Mon Aug 28 2023 16:29:14:119 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:121 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:122 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:122 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:123 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:124 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:125 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:126 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:126 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:127 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:128 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:128 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:129 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:130 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:131 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:132 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:133 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:133 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:134 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:135 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:136 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:138 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:139 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:140 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:141 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:142 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:145 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:146 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:147 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:147 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:148 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:149 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:151 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:152 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:152 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:153 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:154 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:154 GMT-0300 (-03) -- Writing 15456 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:155 GMT-0300 (-03) -- [PARSING REQUEST][2][142867541] GET /runtime.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:14:155 GMT-0300 (-03) -- [PARSING REQUEST][2][142867543] GET /polyfills.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:14:155 GMT-0300 (-03) -- [PARSING REQUEST][2][142867544] GET /styles.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:14:155 GMT-0300 (-03) -- [PARSING REQUEST][2][142867545] GET /main.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:14:155 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867541] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 6666
+ETag: W/"1a0a-xTT1nhUIxiartwqffwW5sbvOCnk"
+Date: Mon, 28 Aug 2023 19:29:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The modul FROM localhost:4200
+Mon Aug 28 2023 16:29:14:156 GMT-0300 (-03) -- Writing 6965 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:156 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867543] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 322369
+ETag: W/"4eb41-hyFBLecDmTVHSI14uye5k1G3BcM"
+Date: Mon, 28 Aug 2023 19:29:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["polyfills"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community FROM localhost:4200
+Mon Aug 28 2023 16:29:14:157 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:157 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:158 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:159 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:159 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:160 GMT-0300 (-03) -- Writing 60527 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:161 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867544] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 214202
+ETag: W/"344ba-8L5iGOgZKi44+oMX5vN8g5O5e6U"
+Date: Mon, 28 Aug 2023 19:29:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["styles"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/in FROM localhost:4200
+Mon Aug 28 2023 16:29:14:161 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:162 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:163 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:163 GMT-0300 (-03) -- Writing 17896 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:14:164 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867545] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 18206
+ETag: W/"471e-US5tnPS/AWA+TDr0xu8UZGufJxc"
+Date: Mon, 28 Aug 2023 19:29:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+"use strict";
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
+
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \ FROM localhost:4200
+Mon Aug 28 2023 16:29:14:164 GMT-0300 (-03) -- Writing 18506 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:10 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:16:10 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867604] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:16:10 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:16:11 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:16:202 GMT-0300 (-03) -- [PARSING REQUEST][2][142867604] GET /ng-cli-ws HTTP/1.1
+Host: localhost:4200
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:4200
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: mF+WG2CElxeUZ2PpEvQWQw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+Mon Aug 28 2023 16:29:16:203 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867604] HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: aFh5HGeLkcfmr4/smiwoqyHQW/w=
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:16:203 GMT-0300 (-03) -- Writing 129 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:203 GMT-0300 (-03) -- Writing 115 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:204 GMT-0300 (-03) -- Writing 43 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:204 GMT-0300 (-03) -- Writing 15 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:272 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:16:272 GMT-0300 (-03) -- [PARSING HANDSHAKE][2][142867611] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:16:272 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:16:273 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:16:316 GMT-0300 (-03) -- [PARSING REQUEST][2][142867545] GET /favicon.ico HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:16:317 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867545] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: image/vnd.microsoft.icon
+Accept-Ranges: bytes
+Content-Length: 948
+ETag: W/"3b4-Ivako7yq+vsCVODy+kzrieUF6LI"
+Date: Mon, 28 Aug 2023 19:29:16 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+PNG
+
+   IHDR         ?Å~   	pHYs    ÒÝ~ü  fIDATHWKLQ½óéÌÒuG	e£n.6qcbl?¸ÑD`©F#ÆKuãF1Qc
+¢!ø	¸ñC¦P¤|B?$ÔÜ±3¼ÎÌI&}óÞ}ïÌ½sï[*ÉUA© KyxgYöAjqê¬Õ3L	Å ´ ÂÙË«ÎOD§4¦3Ï:X FROM localhost:4200
+Mon Aug 28 2023 16:29:16:317 GMT-0300 (-03) -- Writing 1232 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:461 GMT-0300 (-03) -- [PARSING REQUEST][2][142867611] HEAD / HTTP/1.1
+Host: localhost:4200
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:16:462 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][2][142867611] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:16 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:16:462 GMT-0300 (-03) -- Writing 284 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:16:927 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:17:109 GMT-0300 (-03) -- [PARSING REQUEST][2][142867604] *Í
+Mon Aug 28 2023 16:29:17:927 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:18:113 GMT-0300 (-03) -- [PARSING REQUEST][2][142867604] C§
+Mon Aug 28 2023 16:29:18:927 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:19:127 GMT-0300 (-03) -- [PARSING REQUEST][2][142867604] wz{
+Mon Aug 28 2023 16:29:19:927 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:20:104 GMT-0300 (-03) -- [PARSING REQUEST][2][142867604] iG¨P
+Mon Aug 28 2023 16:29:20:928 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:21:126 GMT-0300 (-03) -- [PARSING REQUEST][2][142867604] ~Îæ¹
+Mon Aug 28 2023 16:29:22:510 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:22:510 GMT-0300 (-03) -- [PARSING HANDSHAKE][16][17382830] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:22:510 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:22:511 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:22:677 GMT-0300 (-03) -- [PARSING REQUEST][16][17382830] HEAD / HTTP/1.1
+Accept: */*
+User-Agent: Ruby, Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+Connection: close
+Host: localhost:4200
+
+
+Mon Aug 28 2023 16:29:22:678 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][16][17382830] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:22 GMT
+Connection: close
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:22:678 GMT-0300 (-03) -- Writing 256 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:22:893 GMT-0300 (-03) -- Request to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:22:893 GMT-0300 (-03) -- [PARSING HANDSHAKE][16][17382848] Handshake request to 127.0.0.1:4200
+Mon Aug 28 2023 16:29:22:893 GMT-0300 (-03) -- Connecting to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:22:893 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:23:59 GMT-0300 (-03) -- [PARSING REQUEST][16][17382848] GET / HTTP/1.1
+Host: bs-local.com:4200
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:23:60 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][16][17382848] HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OxsTL6IB85fkJxv9HO8uum0slCI"
+Date: Mon, 28 Aug 2023 19:29:23 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid Host header FROM 127.0.0.1:4200
+Mon Aug 28 2023 16:29:23:60 GMT-0300 (-03) -- Writing 247 bytes response from: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:23:301 GMT-0300 (-03) -- Request to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:23:301 GMT-0300 (-03) -- [PARSING HANDSHAKE][16][17382863] Handshake request to 127.0.0.1:4200
+Mon Aug 28 2023 16:29:23:301 GMT-0300 (-03) -- Connecting to: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:23:302 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:23:468 GMT-0300 (-03) -- [PARSING REQUEST][16][17382863] GET /favicon.ico HTTP/1.1
+Host: bs-local.com:4200
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Language: en-us
+Referer: http://bs-local.com:4200/
+Accept-Encoding: gzip, deflate
+
+
+Mon Aug 28 2023 16:29:23:469 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][16][17382863] HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OxsTL6IB85fkJxv9HO8uum0slCI"
+Date: Mon, 28 Aug 2023 19:29:23 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid Host header FROM 127.0.0.1:4200
+Mon Aug 28 2023 16:29:23:469 GMT-0300 (-03) -- Writing 247 bytes response from: 127.0.0.1:4200
+Mon Aug 28 2023 16:29:26:333 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:26:334 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628068] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:26:334 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:26:334 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:26:516 GMT-0300 (-03) -- [PARSING REQUEST][5][132628068] GET / HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:26:517 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628068] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon"  FROM localhost:4200
+Mon Aug 28 2023 16:29:26:517 GMT-0300 (-03) -- Writing 845 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:732 GMT-0300 (-03) -- [PARSING REQUEST][5][132628068] GET /styles.css HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:26:733 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628068] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 778
+ETag: W/"30a-Mj2sANXcDYVswi9UwV7mFCHQLoU"
+Date: Mon, 28 Aug 2023 19:29:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/*!********************************************************************************************************************************************************************************************************************** FROM localhost:4200
+Mon Aug 28 2023 16:29:26:733 GMT-0300 (-03) -- Writing 1061 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:763 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:26:764 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628095] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:26:764 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:26:764 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:26:803 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:26:803 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628098] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:26:803 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:26:803 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:26:804 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:26:804 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628100] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:26:804 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:26:804 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:26:834 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:26:834 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628101] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:26:834 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:26:834 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:26:865 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:26:865 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628104] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:26:865 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:26:866 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:26:930 GMT-0300 (-03) -- [PARSING REQUEST][5][132628095] GET /runtime.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:26:931 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628095] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 6666
+ETag: W/"1a0a-xTT1nhUIxiartwqffwW5sbvOCnk"
+Date: Mon, 28 Aug 2023 19:29:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The modul FROM localhost:4200
+Mon Aug 28 2023 16:29:26:932 GMT-0300 (-03) -- Writing 6965 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:970 GMT-0300 (-03) -- [PARSING REQUEST][5][132628098] GET /polyfills.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:26:972 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628098] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 322369
+ETag: W/"4eb41-hyFBLecDmTVHSI14uye5k1G3BcM"
+Date: Mon, 28 Aug 2023 19:29:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["polyfills"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community FROM localhost:4200
+Mon Aug 28 2023 16:29:26:972 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:973 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:974 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:975 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:976 GMT-0300 (-03) -- Writing 60527 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:976 GMT-0300 (-03) -- [PARSING REQUEST][5][132628100] GET /vendor.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:26:980 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628100] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 2439984
+ETag: W/"253b30-9Lcm9TQMruq39fmeKzjMBD5iD78"
+Date: Mon, 28 Aug 2023 19:29:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/ FROM localhost:4200
+Mon Aug 28 2023 16:29:26:980 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:981 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:982 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:983 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:984 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:985 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:985 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:986 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:987 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:988 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:988 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:989 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:990 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:991 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:992 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:993 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:995 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:996 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:997 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:26:999 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:0 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:1 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:2 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:2 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:3 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:4 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:5 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:5 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:6 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:7 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:8 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:9 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:9 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:10 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:11 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:12 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:12 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:13 GMT-0300 (-03) -- Writing 15456 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:15 GMT-0300 (-03) -- [PARSING REQUEST][5][132628101] GET /styles.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:27:19 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628101] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 214202
+ETag: W/"344ba-8L5iGOgZKi44+oMX5vN8g5O5e6U"
+Date: Mon, 28 Aug 2023 19:29:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["styles"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/in FROM localhost:4200
+Mon Aug 28 2023 16:29:27:19 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:21 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:22 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:23 GMT-0300 (-03) -- Writing 17896 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:48 GMT-0300 (-03) -- [PARSING REQUEST][5][132628104] GET /main.js HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Origin: http://localhost:4200
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:27:49 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628104] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 18206
+ETag: W/"471e-US5tnPS/AWA+TDr0xu8UZGufJxc"
+Date: Mon, 28 Aug 2023 19:29:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+"use strict";
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
+
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \ FROM localhost:4200
+Mon Aug 28 2023 16:29:27:49 GMT-0300 (-03) -- Writing 18506 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:27:757 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:27:757 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628147] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:27:757 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:27:758 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:28:577 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] GET /ng-cli-ws HTTP/1.1
+Host: localhost:4200
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:4200
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: YW9WP8aARZ4gPgT2BBsVjw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+Mon Aug 28 2023 16:29:28:578 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628147] HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: ZEnf/kueSarsmBXDzkf9D7xQ9V8=
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:28:578 GMT-0300 (-03) -- Writing 129 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:28:578 GMT-0300 (-03) -- Writing 23 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:28:578 GMT-0300 (-03) -- Writing 92 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:28:578 GMT-0300 (-03) -- Writing 58 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:28:930 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:29:255 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] úþ
+Mon Aug 28 2023 16:29:29:320 GMT-0300 (-03) -- [PARSING REQUEST][5][132628100] GET /favicon.ico HTTP/1.1
+Host: localhost:4200
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:29:321 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628100] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: image/vnd.microsoft.icon
+Accept-Ranges: bytes
+Content-Length: 948
+ETag: W/"3b4-Ivako7yq+vsCVODy+kzrieUF6LI"
+Date: Mon, 28 Aug 2023 19:29:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+PNG
+
+   IHDR         ?Å~   	pHYs    ÒÝ~ü  fIDATHWKLQ½óéÌÒuG	e£n.6qcbl?¸ÑD`©F#ÆKuãF1Qc
+¢!ø	¸ñC¦P¤|B?$ÔÜ±3¼ÎÌI&}óÞ}ïÌ½sï[*ÉUA© KyxgYöAjqê¬Õ3L	Å ´ ÂÙË«ÎOD§4¦3Ï:X FROM localhost:4200
+Mon Aug 28 2023 16:29:29:321 GMT-0300 (-03) -- Writing 1232 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:29:367 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:29:367 GMT-0300 (-03) -- [PARSING HANDSHAKE][5][132628231] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:29:367 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:29:367 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:29:552 GMT-0300 (-03) -- [PARSING REQUEST][5][132628231] HEAD / HTTP/1.1
+Host: localhost:4200
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+Connection: keep-alive
+
+
+Mon Aug 28 2023 16:29:29:553 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][5][132628231] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:29:553 GMT-0300 (-03) -- Writing 284 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:29:930 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:30:144 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] ©N#¦
+Mon Aug 28 2023 16:29:30:930 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:31:113 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] ýïn¸
+Mon Aug 28 2023 16:29:31:931 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:32:99 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] DÖ
+Mon Aug 28 2023 16:29:32:933 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:33:106 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] ëó´
+Mon Aug 28 2023 16:29:33:934 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:34:195 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] JÞ
+Mon Aug 28 2023 16:29:34:934 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:35:150 GMT-0300 (-03) -- [PARSING REQUEST][5][132628147] óÅ
+Mon Aug 28 2023 16:29:37:468 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:37:468 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342493] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:37:468 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:37:469 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:37:650 GMT-0300 (-03) -- [PARSING REQUEST][3][58342493] GET / HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+Mon Aug 28 2023 16:29:37:651 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342493] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon"  FROM localhost:4200
+Mon Aug 28 2023 16:29:37:651 GMT-0300 (-03) -- Writing 845 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:37:956 GMT-0300 (-03) -- [PARSING REQUEST][3][58342493] GET /styles.css HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:37:957 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342493] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 778
+ETag: W/"30a-Mj2sANXcDYVswi9UwV7mFCHQLoU"
+Date: Mon, 28 Aug 2023 19:29:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/*!********************************************************************************************************************************************************************************************************************** FROM localhost:4200
+Mon Aug 28 2023 16:29:37:957 GMT-0300 (-03) -- Writing 1061 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:93 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:38:93 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342531] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:38:93 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:38:94 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:38:126 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:38:126 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342535] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:38:126 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:38:126 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:38:150 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:38:150 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342540] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:38:150 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:38:151 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:38:151 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342543] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:38:151 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:38:151 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:38:151 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:38:161 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:38:161 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342546] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:38:161 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:38:161 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:38:367 GMT-0300 (-03) -- [PARSING REQUEST][3][58342531] GET /styles.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:38:369 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342531] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 214202
+ETag: W/"344ba-8L5iGOgZKi44+oMX5vN8g5O5e6U"
+Date: Mon, 28 Aug 2023 19:29:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["styles"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/in FROM localhost:4200
+Mon Aug 28 2023 16:29:38:369 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:370 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:371 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:371 GMT-0300 (-03) -- Writing 17896 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:382 GMT-0300 (-03) -- [PARSING REQUEST][3][58342535] GET /polyfills.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:38:384 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342535] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 322369
+ETag: W/"4eb41-hyFBLecDmTVHSI14uye5k1G3BcM"
+Date: Mon, 28 Aug 2023 19:29:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["polyfills"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community FROM localhost:4200
+Mon Aug 28 2023 16:29:38:384 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:385 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:386 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:387 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:388 GMT-0300 (-03) -- Writing 60527 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:388 GMT-0300 (-03) -- [PARSING REQUEST][3][58342540] GET /runtime.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:38:389 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342540] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 6666
+ETag: W/"1a0a-xTT1nhUIxiartwqffwW5sbvOCnk"
+Date: Mon, 28 Aug 2023 19:29:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The modul FROM localhost:4200
+Mon Aug 28 2023 16:29:38:389 GMT-0300 (-03) -- Writing 6965 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:397 GMT-0300 (-03) -- [PARSING REQUEST][3][58342543] GET /vendor.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:38:402 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342543] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 2439984
+ETag: W/"253b30-9Lcm9TQMruq39fmeKzjMBD5iD78"
+Date: Mon, 28 Aug 2023 19:29:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/ FROM localhost:4200
+Mon Aug 28 2023 16:29:38:402 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:403 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:403 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:404 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:405 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:406 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:407 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:409 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:410 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:412 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:413 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:414 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:416 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:417 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:417 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:418 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:419 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:420 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:420 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:421 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:423 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:424 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:425 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:425 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:426 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:427 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:428 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:428 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:430 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:431 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:432 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:433 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:434 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:435 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:436 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:439 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:441 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:441 GMT-0300 (-03) -- Writing 15456 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:441 GMT-0300 (-03) -- [PARSING REQUEST][3][58342546] GET /main.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:38:443 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342546] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 18206
+ETag: W/"471e-US5tnPS/AWA+TDr0xu8UZGufJxc"
+Date: Mon, 28 Aug 2023 19:29:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+"use strict";
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
+
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \ FROM localhost:4200
+Mon Aug 28 2023 16:29:38:443 GMT-0300 (-03) -- Writing 18506 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:38:906 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:38:907 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342589] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:38:907 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:38:907 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:39:714 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:29:39:714 GMT-0300 (-03) -- [PARSING HANDSHAKE][3][58342611] Handshake request to localhost:4200
+Mon Aug 28 2023 16:29:39:714 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:29:39:715 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:29:40:393 GMT-0300 (-03) -- [PARSING REQUEST][3][58342589] HEAD / HTTP/1.1
+Host: localhost:4200
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+
+
+Mon Aug 28 2023 16:29:40:394 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342589] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:29:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:40:394 GMT-0300 (-03) -- Writing 284 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:40:404 GMT-0300 (-03) -- [PARSING REQUEST][3][58342611] GET /ng-cli-ws HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: http://localhost:4200
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: 0zVruRAYRJ8+8p8oAxMlNQ==
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+Mon Aug 28 2023 16:29:40:405 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342611] HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: ERpdCopjhqiI/CihDqtFbQDtfnU=
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:29:40:405 GMT-0300 (-03) -- Writing 129 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:40:405 GMT-0300 (-03) -- Writing 115 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:40:405 GMT-0300 (-03) -- Writing 58 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:40:727 GMT-0300 (-03) -- [PARSING REQUEST][3][58342543] GET /favicon.ico HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:29:40:728 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][3][58342543] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: image/vnd.microsoft.icon
+Accept-Ranges: bytes
+Content-Length: 948
+ETag: W/"3b4-Ivako7yq+vsCVODy+kzrieUF6LI"
+Date: Mon, 28 Aug 2023 19:29:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+PNG
+
+   IHDR         ?Å~   	pHYs    ÒÝ~ü  fIDATHWKLQ½óéÌÒuG	e£n.6qcbl?¸ÑD`©F#ÆKuãF1Qc
+¢!ø	¸ñC¦P¤|B?$ÔÜ±3¼ÎÌI&}óÞ}ïÌ½sï[*ÉUA© KyxgYöAjqê¬Õ3L	Å ´ ÂÙË«ÎOD§4¦3Ï:X FROM localhost:4200
+Mon Aug 28 2023 16:29:40:728 GMT-0300 (-03) -- Writing 1232 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:40:937 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:41:229 GMT-0300 (-03) -- [PARSING REQUEST][3][58342611] 5o:/
+Mon Aug 28 2023 16:29:41:937 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:42:151 GMT-0300 (-03) -- [PARSING REQUEST][3][58342611] ÷ß
+Mon Aug 28 2023 16:29:42:938 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:43:116 GMT-0300 (-03) -- [PARSING REQUEST][3][58342611] Á6
+Mon Aug 28 2023 16:29:43:938 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:44:112 GMT-0300 (-03) -- [PARSING REQUEST][3][58342611] O6Èº
+Mon Aug 28 2023 16:29:44:939 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:29:45:127 GMT-0300 (-03) -- [PARSING REQUEST][3][58342611] ®Öc¤
+Mon Aug 28 2023 16:30:14:20 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:14:20 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180218] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:14:20 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:14:20 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:14:204 GMT-0300 (-03) -- [PARSING REQUEST][35][25180218] GET / HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+Mon Aug 28 2023 16:30:14:205 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180218] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon"  FROM localhost:4200
+Mon Aug 28 2023 16:30:14:205 GMT-0300 (-03) -- Writing 845 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:507 GMT-0300 (-03) -- [PARSING REQUEST][35][25180218] GET /styles.css HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:14:508 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180218] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 778
+ETag: W/"30a-Mj2sANXcDYVswi9UwV7mFCHQLoU"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/*!********************************************************************************************************************************************************************************************************************** FROM localhost:4200
+Mon Aug 28 2023 16:30:14:508 GMT-0300 (-03) -- Writing 1061 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:570 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:14:570 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180230] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:14:570 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:14:570 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:14:571 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:14:571 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180231] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:14:571 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:14:571 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:14:578 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:14:578 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180232] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:14:578 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:14:578 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:14:583 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:14:583 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180233] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:14:583 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:14:583 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:14:597 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:14:597 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180234] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:14:597 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:14:598 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:14:754 GMT-0300 (-03) -- [PARSING REQUEST][35][25180230] GET /runtime.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:14:756 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180230] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 6666
+ETag: W/"1a0a-xTT1nhUIxiartwqffwW5sbvOCnk"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
+/************************************************************************/
+/******/ 	// The modul FROM localhost:4200
+Mon Aug 28 2023 16:30:14:756 GMT-0300 (-03) -- Writing 6965 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:760 GMT-0300 (-03) -- [PARSING REQUEST][35][25180231] GET /polyfills.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:14:762 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180231] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 322369
+ETag: W/"4eb41-hyFBLecDmTVHSI14uye5k1G3BcM"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["polyfills"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community FROM localhost:4200
+Mon Aug 28 2023 16:30:14:762 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:763 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:764 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:765 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:765 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:766 GMT-0300 (-03) -- Writing 60527 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:769 GMT-0300 (-03) -- [PARSING REQUEST][35][25180232] GET /styles.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:14:770 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180232] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 214202
+ETag: W/"344ba-8L5iGOgZKi44+oMX5vN8g5O5e6U"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["styles"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/in FROM localhost:4200
+Mon Aug 28 2023 16:30:14:770 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:771 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:772 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:772 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:773 GMT-0300 (-03) -- Writing 17896 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:774 GMT-0300 (-03) -- [PARSING REQUEST][35][25180233] GET /main.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:14:775 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180233] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 18206
+ETag: W/"471e-US5tnPS/AWA+TDr0xu8UZGufJxc"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+"use strict";
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
+
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \ FROM localhost:4200
+Mon Aug 28 2023 16:30:14:775 GMT-0300 (-03) -- Writing 18506 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:789 GMT-0300 (-03) -- [PARSING REQUEST][35][25180234] GET /vendor.js HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:14:792 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180234] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/javascript; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 2439984
+ETag: W/"253b30-9Lcm9TQMruq39fmeKzjMBD5iD78"
+Date: Mon, 28 Aug 2023 19:30:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+(self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
+
+/***/ 7716:
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/ FROM localhost:4200
+Mon Aug 28 2023 16:30:14:793 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:793 GMT-0300 (-03) -- Writing 32768 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:794 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:795 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:796 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:797 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:797 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:799 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:799 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:800 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:801 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:802 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:802 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:804 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:805 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:807 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:808 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:809 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:811 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:812 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:813 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:814 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:815 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:815 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:816 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:817 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:818 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:818 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:819 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:820 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:821 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:822 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:823 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:823 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:824 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:825 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:826 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:827 GMT-0300 (-03) -- Writing 65536 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:14:827 GMT-0300 (-03) -- Writing 15456 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:15:428 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:15:428 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180243] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:15:428 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:15:430 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:15:720 GMT-0300 (-03) -- Request to: localhost:4200
+Mon Aug 28 2023 16:30:15:720 GMT-0300 (-03) -- [PARSING HANDSHAKE][35][25180253] Handshake request to localhost:4200
+Mon Aug 28 2023 16:30:15:720 GMT-0300 (-03) -- Connecting to: localhost:4200
+Mon Aug 28 2023 16:30:15:720 GMT-0300 (-03) -- Connected to: 127.0.0.1
+Mon Aug 28 2023 16:30:16:686 GMT-0300 (-03) -- [PARSING REQUEST][35][25180243] HEAD / HTTP/1.1
+Host: localhost:4200
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
+
+
+Mon Aug 28 2023 16:30:16:687 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180243] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Content-Length: 561
+ETag: W/"231-Fjy9El4s5hP8k2lJL9ZvhvHglqE"
+Date: Mon, 28 Aug 2023 19:30:16 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:30:16:687 GMT-0300 (-03) -- Writing 284 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:16:694 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] GET /ng-cli-ws HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: http://localhost:4200
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: 6rWycsBvDnh+IMLt+s5jdw==
+Connection: keep-alive, Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+Mon Aug 28 2023 16:30:16:695 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180253] HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: U/8oSbdFXUxVZSZKlFmNeHMV3yM=
+
+ FROM localhost:4200
+Mon Aug 28 2023 16:30:16:695 GMT-0300 (-03) -- Writing 129 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:16:695 GMT-0300 (-03) -- Writing 115 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:16:695 GMT-0300 (-03) -- Writing 58 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:16:969 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:17:198 GMT-0300 (-03) -- [PARSING REQUEST][35][25180234] GET /favicon.ico HTTP/1.1
+Host: localhost:4200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:4200/
+
+
+Mon Aug 28 2023 16:30:17:199 GMT-0300 (-03) -- [PARSING RESPONSE (500chars)][35][25180234] HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: image/vnd.microsoft.icon
+Accept-Ranges: bytes
+Content-Length: 948
+ETag: W/"3b4-Ivako7yq+vsCVODy+kzrieUF6LI"
+Date: Mon, 28 Aug 2023 19:30:17 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+PNG
+
+   IHDR         ?Å~   	pHYs    ÒÝ~ü  fIDATHWKLQ½óéÌÒuG	e£n.6qcbl?¸ÑD`©F#ÆKuãF1Qc
+¢!ø	¸ñC¦P¤|B?$ÔÜ±3¼ÎÌI&}óÞ}ïÌ½sï[*ÉUA© KyxgYöAjqê¬Õ3L	Å ´ ÂÙË«ÎOD§4¦3Ï:X FROM localhost:4200
+Mon Aug 28 2023 16:30:17:200 GMT-0300 (-03) -- Writing 1232 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:17:230 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] FøRi
+Mon Aug 28 2023 16:30:17:970 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:18:157 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] EyÒ
+Mon Aug 28 2023 16:30:18:971 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:19:150 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] Àÿ;"
+Mon Aug 28 2023 16:30:19:971 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:20:152 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] Ì©Õ_
+Mon Aug 28 2023 16:30:20:971 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:21:153 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] ÑZô
+Mon Aug 28 2023 16:30:21:971 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:22:152 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] ù¾C
+Mon Aug 28 2023 16:30:22:972 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:23:149 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] ûOea
+Mon Aug 28 2023 16:30:23:973 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:24:159 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] Á$
+Mon Aug 28 2023 16:30:24:973 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:25:164 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] D|ß
+Mon Aug 28 2023 16:30:25:974 GMT-0300 (-03) -- Writing 2 bytes response from: localhost:4200
+Mon Aug 28 2023 16:30:26:155 GMT-0300 (-03) -- [PARSING REQUEST][35][25180253] û5Åý
