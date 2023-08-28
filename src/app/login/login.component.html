@@ -1,12 +1,12 @@
 <div>
-    <button routerLink="/main">Home</button>
-    <button routerLink="/login">Login</button>
-    <button routerLink="/cargaDedatos">CargaDeDatos</button>
+    <button id ="home" routerLink="/main">Home</button>
+    <button id="login" routerLink="/login">Login</button>
+    <button id="cargaDeDatos" routerLink="/cargaDedatos">CargaDeDatos</button>
 </div>
 <h2>Login de usuario</h2>
-<input [(ngModel)]="email" type="email" itemid="email" placeholder="email">
+<input [(ngModel)]="email" type="email" id="email" placeholder="email">
 <br>
-<input [(ngModel)]="password" type="password"  itemid="password" placeholder="password">
+<input [(ngModel)]="password" type="password" id="password" placeholder="password">
 <br>
 <button (click)="validToken()">Enviar</button>
 

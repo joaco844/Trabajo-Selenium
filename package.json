@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build-test": "npx tsc test/*.ts",
+    "test": "npm run build-test && mocha"
   },
   "private": true,
   "dependencies": {
@@ -29,8 +30,8 @@
     "@angular-devkit/build-angular": "^15.2.8",
     "@angular/cli": "~15.2.8",
     "@angular/compiler-cli": "^15.2.0",
-    "@types/jasmine": "~4.3.0",
-    "jasmine-core": "~4.5.0",
+    "@types/mocha": "^10.0.1",
+    "@types/selenium-webdriver": "^4.1.16",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
