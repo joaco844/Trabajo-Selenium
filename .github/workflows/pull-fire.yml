@@ -11,4 +11,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIRE_SELENIUM }}'
-          projectId: fire-selenium
+          projectId: selenium-715a8
