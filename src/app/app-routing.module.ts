@@ -6,8 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { CargaDeDatosComponent } from './carga-de-datos/carga-de-datos.component';
 
 const routes: Routes = [
-  {path:"", component:MainComponent, title:"main"},
-  {path:"main", component: MainComponent, title:"main"},
+  {path:"", component:MainComponent, title:"home"},
+  {path:"main", component: MainComponent, title:"home"},
   {path:"login", component: LoginComponent, title:"login"},
   {path:"cargaDedatos",component: CargaDeDatosComponent, title:"cargaDeDatos"}
 ];

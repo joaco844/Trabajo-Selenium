@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  constructor(private router: Router){
+
+  }
   email: string = ""
   password: string = ""
 
@@ -16,9 +20,8 @@ export class LoginComponent {
       localStorage.setItem("key","false")
     }
     else{
+      this.router.navigate(['/cargaDedatos'])
       localStorage.setItem("key","true")
     }
-
-
   }
 }
